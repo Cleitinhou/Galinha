@@ -1,0 +1,19 @@
+.card{
+        background-color: rgb(235, 234, 183);
+        margin: 1em;
+        border-radius: 15px;
+}
+
+.descrição--título{
+    text-align: center;
+    margin: auto;
+}
+
+.descrição{
+    text-align: center;
+    margin: 1em;
+}
+.foto-produto{
+    width: 90%;
+    height: 40%;
+}

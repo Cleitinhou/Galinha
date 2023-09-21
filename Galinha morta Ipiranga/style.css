@@ -1,0 +1,83 @@
+@import url('./produtos.css');
+
+header{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.logo{
+    width: 12%;
+    margin-left: 23%;
+}
+
+.cabecalho{
+    display: flex;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    height: auto ;
+}
+
+Ul{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+li{
+    text-align: center;
+    margin: 30px;
+    margin: auto;
+    font-size: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.links:hover{
+    animation-fill-mode: backwards;
+    color: rgb(69, 6, 108);
+}
+
+.links{
+    transition: 0.3s;
+}
+
+.links{
+    text-decoration: none;
+    color: #1199bb;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Poppins';
+}
+
+.readi{
+    background-color: rgb(235, 234, 183);
+    padding: 10px;
+}
+
+.lema{
+    color: rgb(51, 155, 224);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: auto;
+    font-size: 64px
+}
+
+.tópicos{
+    background-color: rgba(127, 255, 212, 0.726);
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
